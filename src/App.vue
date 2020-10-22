@@ -1,5 +1,3 @@
-
-
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
@@ -8,9 +6,11 @@
 </template>
 
 <script>
+
     import './assets/styles/color/colors.scss';
     import './assets/styles/text_style.scss';
     import './assets/styles/fonts.scss';
+
     import HelloWorld from './components/HelloWorld.vue'
 
 export default {
@@ -26,7 +26,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: var(--primary-color);
+  color: var(--primary-80-color);
   margin-top: 60px;
 }
 </style>
